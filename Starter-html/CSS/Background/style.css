@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+header {
+    height: 100px;
+    border:7px dashed #BF5E0A ;
+    background-color: #387CA6;
+    background-image: url(https://www.escolademusicadonaldo.com.br/admin/img/fotos/150177973634flautasdoceyamaha_t_c.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+main {
+    color: beige;
+ 
+        border: 7px dashed #BF5E0A;
+        background-color: #387CA6;
+        background-image: url(https://www.escolademusicadonaldo.com.br/admin/img/fotos/150177973634flautasdoceyamaha_t_c.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-origin: content-box;
+        background-clip: content-box;
+        background-attachment: fixed;
+        background: linear-gradient(#A64914 ,#732F20 ,#262626);
+}
