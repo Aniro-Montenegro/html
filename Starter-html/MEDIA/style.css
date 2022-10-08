@@ -1,0 +1,22 @@
+div {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 10px 10px 10px 10px;
+}
+video{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+body {
+    font: 18px/1.6 'Roboto', sans-serif;
+    background: #f2f2f2;
+    color: #3a3a3a;
+    padding: 20px 40px;
+}
+
+svg {
+    fill: #49b293;
+}
