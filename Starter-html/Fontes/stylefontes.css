@@ -1,0 +1,35 @@
+div{
+    width: 350;
+    height: 350;
+}
+.fonte1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: right;
+    text-shadow: 2px 2px red;
+ 
+
+}
+.fonte2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+   font-style: oblique;
+   font-stretch: condensed;
+   line-height: 2.5;
+    text-decoration: underline solid red;
+    color: blue;
+    text-align: center;
+}
+.fonte3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    letter-spacing: 4px;
+    word-spacing: 18px;
+    text-transform: uppercase;
+    text-align: left;
+   
+   
+    
+}
