@@ -1,0 +1,36 @@
+.box{
+    height: 150px;
+    width: 400px;
+    border: 2px;
+    border-color: black;
+    margin-top: 10px;
+    padding: 20px 40px;
+}
+.box1{
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.box2 {
+    background: teal;
+}
+.box3 {
+    background: blueviolet;
+}
+
+.box4 {
+    background: rgb(78, 254, 34);
+}
+
+.box5 {
+    background: rgb(117, 136, 9);
+}
+
+.box6 {
+    background: rgb(130, 29, 29);
+}
+
+.box7 {
+    background: rgb(21, 156, 176);
+}
