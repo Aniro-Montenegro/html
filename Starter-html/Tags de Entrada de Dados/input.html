@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+  </head>
+  <body>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <input type="text" placeholder="Digite o texto" />
+      </div>
+      <br />
+      <div>
+        <label for="rengeexemplo"></label>
+        <input
+          type="range"
+          placeholder="Range"
+          id="rengeexemplo"
+          min="10"
+          max="200"
+          value="35"
+          step="5"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="text" placeholder="Digitação desabilitada" disabled />
+      </div>
+      <br />
+      <div>
+        <input type="date" value="2022-10-05" />
+      </div>
+      <br />
+      <div>
+        <input type="month" value="2022-05" />
+      </div>
+      <br />
+      <div>
+        <input type="time" value="10:37" />
+      </div>
+      <br />
+      <div>
+        <input type="week" value="2022-W20" />
+      </div>
+      <br />
+      <div>
+        <input type="datetime-local" value="2022-10-05" />
+      </div>
+      <br />
+      <div>
+        <input
+          type="number"
+          step="3"
+          autofocus
+          placeholder="Selecione um número"
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="email"
+          autocomplete="email"
+          placeholder="Digite um email"
+          required
+          minlength="8"
+          maxlength="50"
+          list="emaillist"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="file" />
+      </div>
+      <br />
+      <div>
+        <label for="senha" for="Senha">Senha</label>
+        <input
+          pattern="[0-9a-fA-F]{4,8}"
+          title="Coloque HEX no minimo 4 caracteres e no máximo 8 caracteres"
+          placeholder="Senha"
+          type="password"
+          placeholder="Digite sua senha"
+          required
+          id="senha"
+          minlength="4"
+          maxlength="8"
+          size="8"
+          autocomplete="new-password"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="text" name="nome" form="meu-form" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <input
+          type="file"
+          placeholder="Escolha o arquivo"
+          accept="image/*,.pdf,.png"
+          multiple
+        />
+      </div>
+      <br />
+      <br />
+      <div>
+        <input type="url" placeholder="Digite uma url" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <input type="color" value="#20B2AA" list="listcolors" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="subscribe">Receber Notificações</label>
+        <input type="checkbox" name="subscribe" id="subscribe" />
+      </div>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Escolha uma opção</legend>
+        <div>
+          <input type="checkbox" id="coding" name="interesses" value="coding" />
+          <label for="coding">Coding</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="music" name="interesses" value="music" />
+          <label for="music">Music</label>
+        </div>
+      </fieldset>
+
+      <br />
+      <br />
+      <fieldset>
+        <legend>Vamos tomar um café?</legend>
+        <div>
+          <input type="radio" id="yep" name="coffe" value="yes" />
+          <label for="yep">Sim</label>
+        </div>
+
+        <div>
+          <input type="radio" id="nono" name="coffe" value="no" />
+          <label for="music">Não</label>
+        </div>
+      </fieldset>
+
+      <br />
+      <br />
+      <div>
+        <label for="message">Mensagem</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          wrap="off"
+        ></textarea>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="selecao">Selecione</label>
+        <select name="selecaoV" id="selecao" size="3">
+          <option value="">Select 1</option>
+          <option value="">Select 2</option>
+          <option value="">Select 3</option>
+          <option value="">Select 4</option>
+          <option value="">Select 5</option>
+          <option value="">Select 6</option>
+        </select>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label for="selecaoopt">Selecione Optgroup</label>
+        <select name="selecaooptV" id="selecaoopt">
+          <optgroup label="Selecione uma opção">
+            <option value="">Select 1</option>
+            <option value="">Select 2</option>
+            <option value="">Select 3</option>
+            <option value="">Select 4</option>
+            <option value="">Select 5</option>
+            <option value="">Select 6</option>
+          </optgroup>
+          <optgroup label="Selecione outra opção">
+            <option value="">Select 7</option>
+            <option value="">Select 8</option>
+            <option value="">Select 9</option>
+            <option value="">Select 10</option>
+            <option value="">Select 11</option>
+            <option value="">Select 12</option>
+          </optgroup>
+        </select>
+      </div>
+      <br />
+      <br />
+
+      <input
+        type="search"
+        name="busca"
+        list="listabusca"
+        placeholder="Busque o pais"
+      />
+      <br />
+      <br />
+
+      <button type="submit">Enviar</button>
+      <datalist id="emaillist">
+        <option>email1@bol.com.br</option>
+        <option>teste@gmail.com.br</option>
+        <option>emailqualquer@yahoo.com.br</option>
+      </datalist>
+
+      <datalist id="listcolors">
+        <option>#00FFFF</option>
+        <option>#00CED1</option>
+        <option>#ADFF2F</option>
+        <option>#D2691E</option>
+        <option>#9400D3</option>
+        <option>#F08080</option>
+      </datalist>
+
+      <datalist id="listabusca">
+        <option value="Brasil" selected="selected">Brasil</option>
+        <option value="Afeganistão">Afeganistão</option>
+        <option value="África do Sul">África do Sul</option>
+        <option value="Albânia">Albânia</option>
+        <option value="Bulgária">Bulgária</option>
+        <option value="Burkina Faso">Burkina Faso</option>
+        <option value="Burundi">Burundi</option>
+        <option value="Butão">Butão</option>
+        <option value="Bélgica">Bélgica</option>
+        <option value="Bósnia e Herzegovina">Bósnia e Herzegovina</option>
+        <option value="Cabo Verde">Cabo Verde</option>
+        <option value="Camarões">Camarões</option>
+        <option value="Camboja">Camboja</option>
+        <option value="Canadá">Canadá</option>
+        <option value="Catar">Catar</option>
+        <option value="Cazaquistão">Cazaquistão</option>
+        <option value="Chade">Chade</option>
+        <option value="Espanha">Espanha</option>
+        <option value="Estados Federados da Micronésia">
+          Estados Federados da Micronésia
+        </option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="Estônia">Estônia</option>
+        <option value="Etiópia">Etiópia</option>
+        <option value="Fiji">Fiji</option>
+        <option value="Filipinas">Filipinas</option>
+        <option value="Finlândia">Finlândia</option>
+        <option value="França">França</option>
+      </datalist>
+    </form>
+  </body>
+  <form id="meu-form"></form>
+</html>
